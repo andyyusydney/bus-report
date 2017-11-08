@@ -4,6 +4,8 @@
   "description": "Bus Report Angular App",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,18 @@
   "bugs": {
     "url": "https://github.com/andyyusydney/bus-report/issues"
   },
-  "homepage": "https://github.com/andyyusydney/bus-report#readme"
+  "homepage": "https://github.com/andyyusydney/bus-report#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-ui-router": "^0.4.3"
+  }
 }
