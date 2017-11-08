@@ -1,0 +1,19 @@
+{
+  "name": "bus-report",
+  "version": "1.0.0",
+  "description": "Bus Report Angular App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyyusydney/bus-report.git"
+  },
+  "author": "Andy Yu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyyusydney/bus-report/issues"
+  },
+  "homepage": "https://github.com/andyyusydney/bus-report#readme"
+}
