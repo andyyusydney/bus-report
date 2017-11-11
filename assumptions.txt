@@ -1,0 +1,6 @@
+- bus-services-data.json will be got from json API rather then a static local file in real app;
+- the meaning of the value in the attribute of deviationFromTimetable,
+  negative: early
+  positive >= 300: late
+  positive < 300 && >=0: On Time
+  null: Unknown
