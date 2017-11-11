@@ -6,14 +6,15 @@ module.exports = function karmaConfig(config) {
             // Set framework to jasmine
             'jasmine'
         ],
+		files: [
+            'node_modules/angular/angular.js', 
+			'node_modules/angular-mocks/angular-mocks.js',
+			'./src/**/*.test.js', 
+        ],
         reporters: [
             // Reference: https://github.com/mlex/karma-spec-reporter
             // Set reporter to print detailed results to console
             'spec'
-        ],
-        files: [
-            // Grab all files in the app folder that contain .test.
-			'./src/**/*.test.js',
         ],
 
         preprocessors: {

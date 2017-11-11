@@ -4777,7 +4777,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 __WEBPACK_IMPORTED_MODULE_0_angular___default.a.module('app', [__WEBPACK_IMPORTED_MODULE_1_angular_ui_router___default.a, __WEBPACK_IMPORTED_MODULE_2__components_list_js__["a" /* default */]]).config(['$urlRouterProvider', '$locationProvider', ($urlRouterProvider, $locationProvider) => {
     $urlRouterProvider.otherwise('/list');
-    $locationProvider.html5Mode({ enabled: true }); // TODO: disable the html5 url to resolve the sitecore url issue. However, it breaks facebook redirect back page. 
+    //$locationProvider.html5Mode({ enabled: true }); // TODO: disable the html5 url to resolve the sitecore url issue. However, it breaks facebook redirect back page. 
 }]);
 
 /***/ }),

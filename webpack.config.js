@@ -8,7 +8,8 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 	filename: 'index.html',
 	inject: 'body'
 })
-
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+			
 module.exports = {
 	entry: './src/index.js',
 	output: {
@@ -20,5 +21,11 @@ module.exports = {
 			{ test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ }
 		]
 	},
-	plugins: [HtmlWebpackPluginConfig]
+	plugins: [
+		HtmlWebpackPluginConfig,
+		new CopyWebpackPlugin([               
+			// Copy directory contents to /build
+			{ from: 'src/data', to: './data' }
+		]) 
+	]
 }
