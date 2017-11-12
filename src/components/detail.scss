@@ -1,0 +1,28 @@
+.detail {
+	font-size: 12px;
+	width: 460px;
+	border-collapse: collapse;
+	margin-top: 8px;
+    margin-bottom: 40px;
+	&__header {
+		background-color: #d9edf7;
+	}
+	&__header, &__body {
+		&-item {
+			padding: 8px;
+			border-top: 1px solid rgb(221, 221, 221);
+		}
+	}
+
+	.early {
+		color: red;
+	}
+
+	.late {
+		color: blue;
+	}
+
+	.on-time {
+		color: green;
+	}
+}

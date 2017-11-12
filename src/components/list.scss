@@ -1,0 +1,10 @@
+.org {
+	list-style-type: none;
+	&__listItem {
+		font-family: 'Helvetica', 'Arial', sans-serif;
+		font-size: 22px;
+	}
+	&__link {
+		text-decoration: none;
+	}
+}
