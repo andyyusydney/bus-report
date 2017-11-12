@@ -27,6 +27,7 @@
     "babel-preset-es2015": "^6.24.1",
     "copy-webpack-plugin": "^4.2.0",
     "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
     "html-webpack-plugin": "^2.30.1",
     "jasmine": "^2.8.0",
     "jasmine-core": "^2.8.0",
@@ -45,6 +46,7 @@
   "dependencies": {
     "angular": "^1.6.6",
     "angular-sanitize": "^1.6.6",
-    "angular-ui-router": "^0.4.3"
+    "angular-ui-router": "^0.4.3",
+    "font-awesome": "^4.7.0"
   }
 }

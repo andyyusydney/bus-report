@@ -1,10 +1,17 @@
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
 .org {
 	list-style-type: none;
+	width: 460px;
 	&__listItem {
 		font-family: 'Helvetica', 'Arial', sans-serif;
 		font-size: 22px;
 	}
 	&__link {
 		text-decoration: none;
+		&-icon {
+			float: right;
+		}
 	}
 }
